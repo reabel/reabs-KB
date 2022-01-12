@@ -1,10 +1,16 @@
 import { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
+import SwaggerUI from 'swagger-ui'
+import SwaggerTest from './components/SwaggerText'
+// or use require if you prefer
+//const SwaggerUI = require('swagger-ui')
+
+
 
 function App() {
   const [count, setCount] = useState(0)
-
+  const uiComp = <div id="swagger-container">test</div>
   return (
     <div className="App">
       <header className="App-header">
@@ -37,8 +43,8 @@ function App() {
             Vite Docs
           </a>
         </p>
+        <SwaggerTest />
       </header>
-      <div id="swagger-container">test</div>
     </div>
   )
 }

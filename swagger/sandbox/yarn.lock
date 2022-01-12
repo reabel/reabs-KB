@@ -315,6 +315,11 @@
   resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.2.tgz#1a62f89525723dde24ba1b01b092bf5df8ad4d39"
   integrity sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==
 
+"@types/swagger-ui@^3.52.0":
+  version "3.52.0"
+  resolved "https://registry.yarnpkg.com/@types/swagger-ui/-/swagger-ui-3.52.0.tgz#c915c3703e9eabb9a73ff11470a55dbdfbd9e096"
+  integrity sha512-SlufixEmh+8CLHNgTfAfCT1icNOF7bXboWabhHr1+hIolqlvfwYJGe7HgRcpI3ChE7HWASmEKLkMu34rxseJjQ==
+
 "@types/unist@*":
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/@types/unist/-/unist-2.0.6.tgz#250a7b16c3b91f672a24552ec64678eeb1d3a08d"
