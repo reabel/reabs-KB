@@ -42,13 +42,19 @@ export const mainListItems = (
       </ListItemIcon>
       <ListItemText primary="Integrations" />
     </ListItemButton>
+    <ListItemButton>
+      <ListItemIcon>
+        <LayersIcon />
+      </ListItemIcon>
+      <ListItemText primary="Ingredients Stock" />
+    </ListItemButton>
   </React.Fragment>
 );
 
 export const secondaryListItems = (
   <React.Fragment>
     <ListSubheader component="div" inset>
-      Saved reports
+      Popular Recipes
     </ListSubheader>
     <ListItemButton>
       <ListItemIcon>

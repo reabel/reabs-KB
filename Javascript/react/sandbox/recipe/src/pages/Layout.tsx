@@ -90,6 +90,9 @@ const defaultTheme = createTheme();
 
 export default function Dashboard() {
   const [open, setOpen] = React.useState(true);
+  const [recipes, setRecipes] = React.useState([
+    { name: 'Spaghetti', ingredients: ['beef', 'salt', 'tomatoes']}
+  ]);
   const toggleDrawer = () => {
     setOpen(!open);
   };
