@@ -6,7 +6,7 @@ import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import Recipes from "./pages/Recipes";
 import AddRecipe from "./pages/AddRecipe";
-import Contact from "./pages/Contact";
+import Ingredients from "./pages/Ingredients";
 import NoPage from "./pages/NoPage";
 import Orders from './pages/Orders';
 /**
@@ -22,7 +22,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
           <Route path="recipes" element={<Recipes />} >
           </Route>
           <Route path='recipes-add' element={<AddRecipe />} />
-          <Route path="ingredients" element={<Contact />} />
+          <Route path="ingredients" element={<Ingredients />} />
           <Route path="stock" element={<Orders />} />
           <Route path="*" element={<NoPage />} />
         </Route>
