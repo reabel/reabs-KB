@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <script>
+            //from https://jsfiddle.net/ydchauh/4cbk0sq5/
+
+            var cursor = document.getElementById("cursor");
+            document.body.addEventListener('c')
+            document.body.addEventListener("mousemove", (e) => {
+                console.log('moving mouse');
+                cursor.style.left = e.clientX + "px",
+                cursor.style.top = e.clientY + "px";
+            });
+        
+        </script>
+        
+        
+        <style>
+        .cursor {
+          position: fixed;
+          border-radius: 50%;
+          transform: translateX(-50%) translateY(-50%);
+          pointer-events: none;
+          left: -100px;
+          top: 50%;
+          mix-blend-mode: difference; /*for dark and light modes*/
+          background-color: transparent;
+          z-index: 10000;
+          border: 2px solid white;
+          height: 30px;
+          width: 30px;
+          transition: all 300ms ease-out;
+        }
+        
+        body {
+          margin: 0;
+          background: #20262E;
+          min-height: 300px;
+          color: white;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .blog {
+          position: fixed;
+          bottom: 1rem;
+          left: 0;
+          width: 100%;
+          text-align: center;
+          margin: 0;
+        
+          a {
+            color: white;
+          }
+        }
+        </style>
+    </head>
+    <body>
+        <div class='cursor' id="cursor"></div>
+        
+        <p class="blog">
+          This fiddle is a part of a <a href="https://yogeshchauhan.com/how-to-create-a-circle-that-follows-a-cursor-using-javascript-and-css/" target="_blank">Blog Post on YogeshChauhan.com</a>
+        </p>
+
+    </body>
+</html>

@@ -1,0 +1,40 @@
+<style>
+    body {
+    margin: 0;
+    }
+
+    #grid {
+    height: 100vh;
+    transition: 500ms;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3px;
+    background: crimson;
+    }
+
+    :where(.left, .center, .right) {
+    background: navajowhite;
+    transition: 300ms;
+    }
+
+    :where(.left, .center, .right):hover {
+    background: crimson;
+    }
+
+    #grid:has(.left:hover) {
+    grid-template-columns: 2fr 0.5fr 0.5fr;
+    }
+
+    #grid:has(.center:hover) {
+    grid-template-columns: 0.5fr 2fr 0.5fr;
+    }
+    #grid:has(.right:hover) {
+    grid-template-columns: 0.5fr 0.5fr 2fr;
+    }
+</style>
+
+<div id="grid">
+    <div class="left"></div>
+    <div class="center"></div>
+    <div class="right"></div>
+  </div>

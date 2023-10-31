@@ -1,0 +1,27 @@
+<style>
+    body {
+    margin: 0;
+    background: navajowhite;
+    }
+
+    #grid {
+    height: 100vh;
+    transition: 300ms;
+    display: grid;
+    grid-template-columns: 1fr 1fr 0fr;
+    }
+
+    #grid:hover {
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .column {
+    outline: 1.5px solid rgb(0 0 0 / 10%);
+    }
+</style>
+
+<div id="grid">
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+  </div>

@@ -1,0 +1,48 @@
+<p>
+<label><input type="checkbox" id="checkbox" /> Checked</label>
+</p>
+<p>
+<button id="button">Click me to send a MouseEvent to the checkbox</button>
+<p id="click">X: ??? Y: ???</p>
+</p>
+
+<canvas id="myCanvas" width="500" height="500" style="border:1px dotted #000000;">
+</canvas>
+
+<script>
+    /**
+     * Other notes
+     * https://blog.hubspot.com/website/css-border-radius-circle
+     */
+    function simulateClick() {
+        // Get the element to send a click event
+        const cb = document.getElementById("checkbox");
+      
+        // Create a synthetic click MouseEvent
+        let evt = new MouseEvent("click", {
+          bubbles: true,
+          cancelable: true,
+          view: window,
+        });
+      
+        // Send the event to the checkbox element
+        cb.dispatchEvent(evt);
+      }
+      document.getElementById("button").addEventListener("click", simulateClick);
+      const note = document.getElementById("click");
+      const drawCircle = (x, y) => {
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.beginPath();
+        ctx.arc(x, y, 40, 0, 2 * Math.PI);
+        ctx.stroke();
+      };
+      const noteClick = (e) => {
+        note.innerText = `X: ${e.clientX} Y: ${e.clientY}`
+        drawCircle(e.clientX, e.clientY)
+      };
+      
+      document.body.addEventListener("click", (e) => {
+        noteClick(e);
+    });
+</script>
