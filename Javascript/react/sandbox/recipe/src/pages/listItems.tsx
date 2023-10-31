@@ -15,13 +15,13 @@ export const mainListItems = (
       </ListItemIcon>
       <ListItemText primary="Recipes" />
     </ListItemButton>
-    <ListItemButton href='recipes'>
+    <ListItemButton href='ingredients'>
       <ListItemIcon>
         <LayersIcon />
       </ListItemIcon>
       <ListItemText primary="Ingredients" />
     </ListItemButton>
-    <ListItemButton href='recipes'>
+    <ListItemButton href='stock'>
       <ListItemIcon>
         <LayersIcon />
       </ListItemIcon>
