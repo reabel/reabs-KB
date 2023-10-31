@@ -27,7 +27,7 @@ export default function Recipes() {
     ]);
 
     function preventDefault(event: React.MouseEvent) {
-    event.preventDefault();
+        event.preventDefault();
     }
     return (
         <Fragment>
@@ -48,9 +48,6 @@ export default function Recipes() {
                 ))}
                 </TableBody>
             </Table>
-            <Link color="primary" href="#" onClick={preventDefault} sx={{ mt: 3 }}>
-                See more recipes
-            </Link>
             <Link color="primary" href="recipes/add" sx={{ mt: 3 }}>
                 Add New Recipe
             </Link>

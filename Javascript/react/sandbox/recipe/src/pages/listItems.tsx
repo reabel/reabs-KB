@@ -21,12 +21,6 @@ export const mainListItems = (
       </ListItemIcon>
       <ListItemText primary="Ingredients" />
     </ListItemButton>
-    <ListItemButton href='stock'>
-      <ListItemIcon>
-        <LayersIcon />
-      </ListItemIcon>
-      <ListItemText primary="Stock" />
-    </ListItemButton>
   </React.Fragment>
 );
 
@@ -35,23 +29,17 @@ export const secondaryListItems = (
     <ListSubheader component="div" inset>
       Popular Recipes
     </ListSubheader>
-    <ListItemButton href='/'>
+    <ListItemButton href='/recipe/spaghetti'>
       <ListItemIcon>
         <AssignmentIcon />
       </ListItemIcon>
-      <ListItemText primary="Current month" />
+      <ListItemText primary="Spaghetti" />
     </ListItemButton>
-    <ListItemButton>
+    <ListItemButton href="/recipe/hamburgers">
       <ListItemIcon>
         <AssignmentIcon />
       </ListItemIcon>
-      <ListItemText primary="Last quarter" />
-    </ListItemButton>
-    <ListItemButton>
-      <ListItemIcon>
-        <AssignmentIcon />
-      </ListItemIcon>
-      <ListItemText primary="Year-end sale" />
+      <ListItemText primary="Hamburgers" />
     </ListItemButton>
   </React.Fragment>
 );
