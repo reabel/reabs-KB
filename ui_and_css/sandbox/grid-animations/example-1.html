@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <style>
+            /* ignore */
+            body {
+            margin: 0;
+            }
+
+            #grid {
+            height: 100vh;
+            }
+
+            #left {
+            background: seagreen;
+            }
+
+            #right {
+            background: navajowhite;
+            border: 3rem solid rgb(0 0 0 / 10%);
+            }
+
+            /* the magic */
+            #grid {
+            transition: 300ms;
+            display: grid;
+            grid-template-columns: 48px auto;
+            }
+
+            #grid:has(#left:hover) {
+            grid-template-columns: 30% auto;
+            }
+            /* magic + CSS variable */
+            #grid {
+            transition: 300ms;
+            display: grid;
+            grid-template-columns: var(--left, 48px) auto;
+            }
+
+            #grid:has(#left:hover) {
+            --left: 30%;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div id="grid">
+            <div id="left"></div>
+            <div id="right"></div>
+        </div>
+        
+    </body>
+</html>
