@@ -1,0 +1,15 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "An electron sandbox",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ryan reabel",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^27.1.0"
+  }
+}
