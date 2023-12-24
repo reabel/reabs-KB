@@ -1,5 +1,3 @@
-
-
 ## Books
 
 - Modern Python Cookbook
