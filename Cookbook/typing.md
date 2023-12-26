@@ -6,5 +6,4 @@
 
 ### Big and small integers
 
-### Float, decimal, fraction
 
