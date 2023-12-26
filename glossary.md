@@ -6,3 +6,12 @@ DRY Principal is the idea that code should be reusable when applicable (Where sc
 
 ## WET
 
+## Caching
+
+## Sharding
+
+## i18n/l18n
+
+## a11y
+
+## spearation of concerns
