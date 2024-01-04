@@ -1,0 +1,15 @@
+# Glossary - API
+
+## REST
+
+Representational State Transfer 
+
+- an architectural style used for Web-based APIs
+- First Defined by Dr. Roy Fielding in his doctoral dissertation
+- https://www.ibm.com/topics/rest-apis
+
+
+## Resource
+
+- Hosted on the server
+- 
