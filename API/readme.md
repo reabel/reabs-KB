@@ -2,6 +2,22 @@
 
 ## Starting Points
 
+- APIs are a means for an "application or service to access a resource within another application or service" (from [IBM](https://www.ibm.com/topics/rest-apis)).
+- The accessor is called the client, where the accessee is the server.
+- General, non-strict(agnostic) language / format (as opposed to SOAP or XML-RPC).
+
+### Design Principals
+
+- Uniform Interface
+- Client-server decoupling
+- Statelessness
+- Cacheability
+- Layered System Architectuire
+- Code on demand(optional)
+
+
+
+
 ## True REST
 
 ## OpenAPI Spec
