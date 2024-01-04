@@ -12,7 +12,11 @@ A Full Stack Developer is someone who specializes in web sites and applications.
 ### Front-End Development:
 
 1. **What is the difference between CSS Grid and Flexbox?**
-   >! CSS Grid is a two-dimensional layout system for the web, while Flexbox is a one-dimensional layout system. Grid is best suited for overall page layout, and Flexbox is ideal for distributing items within a container.
+   <details>
+      <summary>CSS Grid is ... </summary> a two-dimensional layout system for the web, while Flexbox is a one-dimensional layout system. Grid is best suited for overall page layout, and Flexbox is ideal for distributing items within a container.
+   </details>  
+   
+
 
 2. **Explain the purpose of responsive web design.**
    - **Answer:** Responsive web design ensures that a website's layout and content adapt to various screen sizes and devices. This is achieved through techniques like flexible grids, media queries, and responsive images.
