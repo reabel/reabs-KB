@@ -5,7 +5,7 @@
 - [ ] Gather Requirements and notes (inteneral / external / scale, etc).
 - [ ] Utilize DRY principals to adapt previously designed and devloped APIs to requirements.
 - [ ] Research security and current trends.
-- [ ] Review build process and determine how api validation could be applied to the process.
+- [ ] Review build process and determine how api validation could be applied to the process. (Ie systems like sonarlint / cube)
 - [ ] Determine what kind of auth is needed.
 - [ ] Wireframe / basic api design using something like OpenAPI
 - [ ] Write basic calls and tests, including safeties against injection / sanitized input
