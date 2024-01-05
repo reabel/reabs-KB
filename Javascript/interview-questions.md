@@ -103,6 +103,7 @@ Certainly! Here are brief answers to the JavaScript interview questions:
 9. **What is a closure in JavaScript?**
 
    - A closure is a function that has access to variables from its outer (enclosing) scope, even after the outer function has finished execution.
+   - [Closures on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
 
 10. **Describe the differences between function declarations and function expressions.**
 
