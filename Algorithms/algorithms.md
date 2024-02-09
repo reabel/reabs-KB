@@ -1,13 +1,19 @@
 # Algorithms   
 
+> Remember: Big O Notation is a measure of the worst-case runtime for an algorithm. For searching and sorting algorithms, this is particularly dependant on how many elements there are in the data set and the algorithm used.
+
 ## Search Algorithms
 
 ### Binary Search
 
-- Repeatedly dividing the search interval in half within a sorted array
-- The idea being to use the information that the array is sorted and reduce the time complexity to O(log N)
+- Repeatedly dividing the search interval in half within a *sorted* array
+- The idea being to use the information that the array is *sorted* and reduce the time complexity to O(log N)
 
 [Geeks for geeks article](https://www.geeksforgeeks.org/binary-search/)
+
+### Linear Search
+
+The _linear_ search algorithm searches each element in an array sequentially.
 
 ### Breadth First Search (BFS)
 
@@ -15,7 +21,21 @@
 
 ## Sorting Algorithms
 
+### Selection Sort
+
+A simple, but inefficient sorting algorithm. The first iteration selects the smallest element in the array and swaps it with the first element. The second selects the second smallest, and so on.
+
+### Insertion Sort
+
+simple and inefficient algorithm. The first iteration takes the second element in the array and swaps if it's less than the first. The second iteration looks at the third element and inserts it in the correct position relative to the first two elements.
+
+At the nth iteration of the algorithm, the first n elements in the original array will be sorted.
+
 ### Merge Sort
+
+Effiient but more complex conceptually than selection or insertion sort.
+
+_Merge sorts by splitting the array into two equal-sized subarrays, sorting each subarray and merging them into one large array.
 
 ### Quicksort 
 
@@ -40,10 +60,6 @@
 ### Topological Sort
 
 ### KMP
-
-### Insertion Sort
-
-### Selection Sort
 
 ### Counting Sort
 
