@@ -39,6 +39,8 @@ _Merge sorts by splitting the array into two equal-sized subarrays, sorting each
 
 ### Quicksort 
 
+### Heap Sort
+
 ## TBD / General / Other
 
 ### Kruskal's 
@@ -62,8 +64,6 @@ _Merge sorts by splitting the array into two equal-sized subarrays, sorting each
 ### KMP
 
 ### Counting Sort
-
-### Heap Sort
 
 ### Kahn's Topological Sort
 
