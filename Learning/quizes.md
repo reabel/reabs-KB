@@ -16,4 +16,6 @@
 - WCAG 1.0 -> 1999
 - NVDA
 - Landmarks (header, nav, main etc).
-- 
+- `a` vs `button`
+- text on pictures
+    - 
