@@ -45,7 +45,7 @@ normal Java class containing private properties that utilize getters and setters
 
 > Partial adapted from https://stackoverflow.com/questions/11406977/what-is-a-java-bean
 
-```
+```Java
 public class Person implements java.io.Serializable {
     private String name;
     private String address;
