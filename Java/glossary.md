@@ -69,6 +69,12 @@ public class Person implements java.io.Serializable {
 }
 ```
 
+### (Record) Components
+
+- "A field of a record"
+
+https://youtube.com/shorts/L8RcHrleI5Y?si=dFUBtNr50foJb1n9
+
 ## Sources
 
 [Oracle Glossary](https://docs.oracle.com/javase/tutorial/information/glossary.html)
