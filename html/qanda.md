@@ -88,7 +88,7 @@ Google
 
 > Which of these elements are all `<table>` elements?
 
-```
+```html
 <table><tr><td>    Your answer
 <thead><body><tr>
 <table><tr><tt>

@@ -48,6 +48,7 @@
 ### 10. **How do you create a new user in PostgreSQL?**
 
 - **Answer:** You can create a new user in PostgreSQL using the `CREATE USER` SQL command. For example:
+
   ```sql
   CREATE USER username WITH PASSWORD 'password';
   ```
