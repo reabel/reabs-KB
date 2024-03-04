@@ -141,7 +141,7 @@
 
 28. **Describe the difference between `==` and `===` in JavaScript.**
 
-    - `==` performs type coercion, while `===` checks both value and type without coercion.
+    - `==` performs type [coercion](https://developer.mozilla.org/en-US/docs/Glossary/Type_coercion), while `===` checks both value and type without coercion.
 
 29. **What is the purpose of the `localStorage` and `sessionStorage` objects in web development?**
     - These objects provide a way to store key-value pairs in a user's browser. `localStorage` persists data even after the browser is closed, while `sessionStorage` persists data for the duration of a page session.
