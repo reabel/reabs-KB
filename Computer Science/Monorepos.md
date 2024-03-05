@@ -16,3 +16,5 @@
 - [Lerna](https://lerna.js.org/)
   - can publish with a single command.
 - pnpm can help
+- NX
+- Turborepo
