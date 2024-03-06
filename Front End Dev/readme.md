@@ -12,14 +12,18 @@ https://en.wikipedia.org/wiki/Hydration_(web_development)
 
 Page refreshes never occur
 
-#### Frameworks
+### Frameworks
 
 React
 
 [Backbone](https://backbonejs.org/)
 
-#### Resources
+### Resources
 
 https://en.wikipedia.org/wiki/Single-page_application
 
 https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/choose-between-traditional-web-and-single-page-apps
+
+### Sustainability in Web Apps
+
+[MDN - Intro to web sustainability](https://developer.mozilla.org/en-US/blog/introduction-to-web-sustainability/)
