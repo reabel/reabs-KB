@@ -18,7 +18,7 @@
 
    - Hoisting is a JavaScript behavior where variable and function declarations are moved to the top of their containing scope during the compilation phase.
 
-   > TODO: Explain what the benefits of scoping are. 
+   > TODO: Explain what the benefits of scoping are.
 
    > Also note that Hoisting is a default behaviour in javascript. As such, if you declare a variable after it's already been used, you won't have a compilation issue.
 
@@ -33,12 +33,12 @@
 
 6. **How do you check the type of a variable in JavaScript?**
 
-   - You can use the `typeof` operator to check the data type of a variable. 
+   - You can use the `typeof` operator to check the data type of a variable.
 
    ```javascript
    const test = "hi there";
    typeof test; // returns string
-   typeof test === "string" // true
+   typeof test === "string"; // true
    ```
 
 7. **What is the difference between `let`, `const`, and `var` for variable declaration?**
@@ -46,6 +46,7 @@
    - `let` and `const` have block-level scope, while `var` has function-level scope. `const` is a constant and cannot be reassigned after declaration.
 
 8. **Explain the concept of scope in JavaScript.**
+
    - Scope refers to the context in which variables are declared. JavaScript has function scope and block scope.
 
    > Function vs. block https://stackoverflow.com/questions/21772317/difference-between-function-level-scope-and-block-level-scope
@@ -145,3 +146,110 @@
 
 29. **What is the purpose of the `localStorage` and `sessionStorage` objects in web development?**
     - These objects provide a way to store key-value pairs in a user's browser. `localStorage` persists data even after the browser is closed, while `sessionStorage` persists data for the duration of a page session.
+
+### Others
+
+> What will be the output of this code? false, or true?
+
+`console.log(false == '0');`
+
+A: true
+
+_Reason: In this situation, the abstract equality comparison algorithm is used, aka type-coercing equality check. What it does is converting the values as long as possible, until they match in type and can be compared strictly._
+
+```js
+// first step
+false = '0'
+
+// second step
+Number(false) == '0' -> 0 == '0'
+
+// third
+0 == '0' -> 0 == Number('0')
+
+//fourth
+0 == 0 -> 0 === 0 -> true
+```
+
+> What will be the output of this code?
+
+`console.log(String.raw`HelloTwitter\nworld`);`
+
+"HelloTwitter\nworld"
+
+_Reason: String.raw takes template literals, processing all substitutions (eh ${something}), but ignoring "escape-sequences"._
+
+> Expected output of `console.log(typeof typeof 1)`?
+
+`string`
+
+_Reason: the code will be evaluated right to left, so we'll see "number", which is a string_
+
+> Expected output of `console.log(('b' + 'a' + + 'a' + 'a').toLowerCase());`
+
+`"banana"`
+
+_Reason: What actually happens here is the following: The plus operator is defined for numbers and strings and as soon as a string is present on either the left or right side, a string concatenation is perfomed:_
+
+```js
+// 1st step
+'b' + 'a' -> 'ba'
+// 2nd step
+'ba' + + 'a' // wait a second!
+```
+
+_The two `+ +` actually indicate a prefix-operator, and not a classical plus. This converts a right-side argument to a number, but converting 'a' to a number produce "NaN"_
+
+```js
+// 1st step
+'b' + 'a' -> 'ba'
+// 2nd step
+'ba' + + 'a' -> 'ba' + NaN -> 'baNaN'
+// 3rd step
+'baNaN' + 'a' -> 'baNaNa'
+// 4th step
+'baNaNa'.toLowerCase() -> 'banana'
+```
+
+> Expected output of: `console.log(018 - 015);`
+
+`5`
+
+_(note, only works in non-strict mode) Reason: in earlier versions of JS, a leading 0 on a number marks it as an octal(base 8) number. because `018` isn't a valid octal number it's treated as base 10 (`18`). `015` is valid, which converts to 13. Therefore the result will be `18- 13 -> 5`_
+
+> Expected output of `console.log(1 +  "2" + "2");`
+
+`122`
+
+_Same as before, JS will evaluate this right to left, so the initial type is string_
+
+> Expected output of the following:
+
+```js
+const numbers = [33, 2, 8];
+numbers.sort();
+console.log(numbers[1]);
+```
+
+`Array.prototype.sort` decides to convert the values of the array to string, which then sorts in _lexicograpghic_ order. This will start at position 0 of the string, which means 3 comes before 8. This results in `["2", "33", "8"].
+
+> Expected output of `console.log("This is a string." instanceof String);`
+
+`false`
+
+_Reason: `"This is a string"` is actually a primitive string and not a String Object. if it was written in `new String("This is a string.")` then it would be `true`_
+
+What instanceof actually does is checking if the String constructor is nested within the prototype chain of the value provided.
+
+> Expected output of `console.log(typeof NaN);`?
+
+`number`
+
+NaN is typesafe, so you'll always get a number.
+
+Ref to IEEE 754, the standard for Floating-Point Arithmetic.
+
+## External Resources
+
+- [JSHive quizes](https://jshive.com/)
+- [Javascript Quiz](https://javascriptquiz.com/)

@@ -2,24 +2,24 @@
 
 > This resource will contain links to all the various interview questions and quizes found within the knowledge base.
 
-# General Web
+## General Web
 
 [API](API/interview-questions.md)
 
-# Language Specific
+## Language Specific
 
 [Javascript](Javascript/interview-questions.md)
 
-## Javascript frameworks
+### Javascript frameworks
 
-[React](Javascript/React/interview-questions.md)
-[Redux](Javascript/redux/interview-questions.md)
-[Express](Javascript/node/express/interview-questions.md)
+- [React](Javascript/react/interview-questions.md)
+- [Redux](Javascript/redux/interview-questions.md)
+- [Express](Javascript/node/express/interview-questions.md)
 
-# Position specific
+## Position specific
 
 [Full Stack Dev](<Full Stack Dev/interview-questions.md>)
 
-# Databases
+## Databases
 
 [Postgres](Databases/Postgres/interview-questions.md)
