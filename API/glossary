@@ -2,14 +2,21 @@
 
 ## REST
 
-Representational State Transfer 
+Representational State Transfer
 
 - an architectural style used for Web-based APIs
 - First Defined by Dr. Roy Fielding in his doctoral dissertation
 - https://www.ibm.com/topics/rest-apis
 
+## [gRPC](https://grpc.io/)
+
+- Remote Procedure Call framework
+
+## [GraphQL](https://graphql.org/)
+
+- a query language and runtime for APIs
 
 ## Resource
 
 - Hosted on the server
-- 
+-
