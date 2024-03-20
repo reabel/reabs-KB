@@ -8,6 +8,10 @@ import {
 } from 'react-router-dom';
 
 import loadMarkdown from './jsx/alt';
+/**
+ * https://reactrouter.com/en/main/guides/ssr
+ * Need to look into remix
+ */
 
 const router = createBrowserRouter([
   {
