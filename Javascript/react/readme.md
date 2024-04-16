@@ -17,7 +17,7 @@
 - PHP Lambos?
 - useFormState with actions
 - "use" hook
-  - makes useContext obselete  
+  - makes useContext obselete
   - suspense boundry, error boundry
 
 ## Client Side Routing
@@ -27,3 +27,7 @@
 https://reactrouter.com/en/main/start/overview
 
 - [Some General Discussion from reddit](https://www.reddit.com/r/reactjs/comments/18ofzzi/does_react_router_scale_or_better_use_nextjsremix/)
+
+### [React Compiler](https://react.dev/blog/2024/02/15/react-labs-what-we-have-been-working-on-february-2024)
+
+React blog about the future release of react compiler
