@@ -1,11 +1,11 @@
 
-import { useDisclosure, Drawer, DrawerOverlay, DrawerHeader, DrawerContent, DrawerBody, Button } from "@chakra-ui/react";
+import { useDisclosure, Link, Menu, MenuItem, Drawer, DrawerOverlay, DrawerHeader, DrawerContent, DrawerBody, Button } from "@chakra-ui/react";
 import React from "react";
-export default function Menu () {
+export default function KBMenu () {
     const { isOpen, onOpen, onClose } = useDisclosure()
     const [placement, setPlacement] = React.useState('right')
-    return (<>
-
+    return (
+    <>
     <Button colorScheme='red' onClick={onOpen}>
         Pages
     </Button>
@@ -14,10 +14,16 @@ export default function Menu () {
         <DrawerContent>
           <DrawerHeader borderBottomWidth='1px'>Pages</DrawerHeader>
           <DrawerBody>
-            <a href="/javascript">Javascript</a>
-            <a href="/react">React</a>
+            <h1>Interview Questions</h1>
+            <Menu>
+              <MenuItem>Javascript Interview Questions</MenuItem>
+              <Link href="/javascript">Javascript</Link>
+              <Link href="/react">React</Link>
+
+            </Menu>
           </DrawerBody>
         </DrawerContent>
       </Drawer>
-    </>);
+    </>
+    );
 }

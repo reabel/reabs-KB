@@ -1,12 +1,12 @@
 import './App.css'
 import Test from './test';
-import Menu from './menu';
+import KBMenu from './kbmenu';
 import { ChakraProvider } from '@chakra-ui/react'
 
 function App() {
   return (
     <ChakraProvider>
-      <Menu />
+      <KBMenu />
       <Test />
     </ChakraProvider>
   )
