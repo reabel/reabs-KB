@@ -65,6 +65,20 @@ typeof test === "string"; // true
 
 - Function declarations are hoisted and can be called before their declaration, while function expressions are not hoisted.
 
+[See MDN](https://developer.mozilla.org/en-US/docs/web/JavaScript/Reference/Operators/function#function_expression_hoisting)
+
+```js
+//Example of a function declaration
+function test(a) {
+  // some code
+}
+
+//Example of a function expression
+const something = function () {
+  // some code
+};
+```
+
 ### Explain the concept of callbacks in JavaScript.
 
 - Callbacks are functions passed as arguments to another function to be executed later, often used in asynchronous operations.
