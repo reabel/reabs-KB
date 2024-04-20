@@ -65,6 +65,20 @@ typeof test === "string"; // true
 
 - Function declarations are hoisted and can be called before their declaration, while function expressions are not hoisted.
 
+[See MDN](https://developer.mozilla.org/en-US/docs/web/JavaScript/Reference/Operators/function#function_expression_hoisting)
+
+```js
+//Example of a function declaration
+function test(a) {
+  // some code
+}
+
+//Example of a function expression
+const something = function () {
+  // some code
+};
+```
+
 ### Explain the concept of callbacks in JavaScript.
 
 - Callbacks are functions passed as arguments to another function to be executed later, often used in asynchronous operations.
@@ -101,7 +115,7 @@ typeof test === "string"; // true
 
     - Arrow functions are a concise syntax for writing functions in JavaScript. They have a shorter syntax and do not bind their own `this` value.
 
-### Asynchronous JavaScript:
+## Asynchronous JavaScript
 
 ### What is the event loop in JavaScript?\*\*
 
@@ -129,7 +143,7 @@ typeof test === "string"; // true
 
     - The `addEventListener` method is used to attach an event handler function to an HTML element, enabling the execution of code in response to events like clicks or keypresses.
 
-### Error Handling
+## Error Handling
 
 ### What is the purpose of the `try`, `catch`, and `finally` blocks in JavaScript?
 
