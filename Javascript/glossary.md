@@ -37,3 +37,7 @@ IIFEs run as soon as they're defined.
 At one point some people called them [Self-Executing Anonymous Functions](https://web.archive.org/web/20171201033208/http://benalman.com/news/2010/11/immediately-invoked-function-expression/#iife).
 
 From Ben's Blog: "Because variables and functions defined within a function may only be accessed inside, but not outside, that context, invoking a functino provides a very easy way to create privacy." that said, scoping was changed with the introduction of `const` and `let` in ES6, which allows for Function and Block scoping.
+
+## Keywords and statements
+
+- Statements will often begin with a keyword such as `for`, `while`, `break`, `import`.

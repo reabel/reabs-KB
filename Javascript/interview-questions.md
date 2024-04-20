@@ -115,7 +115,7 @@ const something = function () {
 
     - Arrow functions are a concise syntax for writing functions in JavaScript. They have a shorter syntax and do not bind their own `this` value.
 
-### Asynchronous JavaScript:
+## Asynchronous JavaScript
 
 ### What is the event loop in JavaScript?\*\*
 
@@ -143,7 +143,7 @@ const something = function () {
 
     - The `addEventListener` method is used to attach an event handler function to an HTML element, enabling the execution of code in response to events like clicks or keypresses.
 
-### Error Handling
+## Error Handling
 
 ### What is the purpose of the `try`, `catch`, and `finally` blocks in JavaScript?
 
