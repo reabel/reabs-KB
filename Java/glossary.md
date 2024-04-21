@@ -10,6 +10,19 @@ GUI Components that were implemented using **native-platform versions of the com
 
 Code name for GUI Components that are uniform regardless of any platform / OS
 
+### [JavaFX](https://wiki.openjdk.org/display/OpenJFX)
+
+- JavaFX used to be closed source at Oracle but is now OSS known as [OpenJFX](https://openjfx.io/)
+- Pre Jdk 11 ([Java SE 8](https://docs.oracle.com/javase/8/javase-clienttechnologies.htm)) Documentation is still available
+
+### Swing vs JavaFX vs AWT
+
+- Swing is considered more "Pure Java" But JavaFX is preferred
+- JavaFX is now a seperate library from the JDK
+
+[Comparison of the three](https://www.geeksforgeeks.org/java-awt-vs-java-swing-vs-java-fx/)
+
+
 ## Data Management and connection
 
 ### Java Database Connectivity (JDBC)
