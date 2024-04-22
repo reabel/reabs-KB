@@ -40,4 +40,4 @@ From Ben's Blog: "Because variables and functions defined within a function may 
 
 ## Keywords and statements
 
-- Statements will often begin with a keyword such as `for`, `while`, `break`, `import`.
+- Statements will often begin with a keyword such as `for`, `while`, `break`, `import`. Statements are instructions that are executed.
