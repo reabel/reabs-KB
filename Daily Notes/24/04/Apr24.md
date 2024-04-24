@@ -15,3 +15,8 @@
 - RAG: Retrieval Augmented Generation
     - [Blog article on NVidia](https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/)
 - https://www.langchain.com/
+
+
+### Ubuntu theming
+
+- [Dracula theme](https://www.gnome-look.org/p/1687249)
