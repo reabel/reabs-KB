@@ -8,6 +8,7 @@
 - [React Miami: replay (May 3)](https://www.youtube.com/watch?v=kRy-IZgd1No)
 - [Microsoft MVP Program](https://mvp.microsoft.com/en-US/mvp)
 - [Codeium](https://twitter.com/codeiumdev)
+- [VS Code Day](https://learn.microsoft.com/en-us/events/learn-events/vs-code-day-2023/)
 
 ### AI Notes
 
