@@ -23,3 +23,9 @@ https://www.youtube.com/watch?v=kJC5wKGbOWw
 ### Midjourney
 
 https://www.midjourney.com/home
+
+## Development
+
+### [Ollama](https://hub.docker.com/r/ollama/ollama)
+
+- [Ollama GH](https://github.com/ollama/ollama)
