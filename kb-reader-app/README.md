@@ -1,3 +1,7 @@
+# KB Reader App
+
+This application is designed to provide a frontend UI for the [KB Reader API](../kb-reader-api/readme.md)
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -26,11 +30,9 @@ If you are developing a production application, we recommend updating the config
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 
-
 ## react-markdown vs marked
 
 - Apparently marked uses `dangerouslySetInnerHTML`
-
 
 ## Vite vs webpack
 
