@@ -1,6 +1,6 @@
 # Algorithms   
 
-> Remember: Big O Notation is a measure of the worst-case runtime for an algorithm. For searching and sorting algorithms, this is particularly dependant on how many elements there are in the data set and the algorithm used.
+> Remember: [Big O Notation](https://en.wikipedia.org/wiki/Big_O_notation) is a measure of the worst-case runtime for an algorithm. For searching and sorting algorithms, this is particularly dependant on how many elements there are in the data set and the algorithm used.
 
 ## Search Algorithms
 
