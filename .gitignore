@@ -1,5 +1,6 @@
+# Mac Meta files
 .DS_STORE
-
+._*
 # Visual studio workspace gitignore
 
 # Specific to the EFCore-Blazor sample app
