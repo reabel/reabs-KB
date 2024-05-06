@@ -1,4 +1,4 @@
-package payroll;
+package com.reabel.payroll;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

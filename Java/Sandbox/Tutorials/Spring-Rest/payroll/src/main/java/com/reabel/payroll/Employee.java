@@ -1,9 +1,13 @@
-package payroll;
+package com.reabel.payroll;
 
 import java.util.Objects;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+
 @Entity
-class Entity{
+class Employee {
     private @Id @GeneratedValue Long id;
     private String name;
     private String role;
