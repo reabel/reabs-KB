@@ -115,3 +115,7 @@ _Merge sorts by splitting the array into two equal-sized subarrays, sorting each
 ### [Top 25 Algorithms Every Programmer Should Know (medium)](https://medium.com/techie-delight/top-25-algorithms-every-programmer-should-know-373246b4881b)
 
 - Mostly a link dump to Techie Delight and possibly other places
+
+### Sliding Window Algorithm
+
+- Used with rate-limiting. example code [on logrocket](https://blog.logrocket.com/rate-limiting-node-js/)
