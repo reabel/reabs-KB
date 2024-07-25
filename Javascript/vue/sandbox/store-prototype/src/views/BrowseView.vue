@@ -2,6 +2,7 @@
     <div class="about">
       <h1>Items for sale</h1>
       <table>
+        <!-- TODO: integrate with Pinya -->
         <thead>
             <tr>
                 <th>Item</th>
@@ -9,23 +10,23 @@
             </tr>
         </thead>
         <body>
-            <tr>
-                <td>Shoes</td>
-                <td>$50</td>
-            </tr>
-            <tr>
-                <td>Shirt</td>
-                <td>$25</td>
-            </tr>
-            <tr>
-                <td>Pants</td>
-                <td>$40</td>
-            </tr>
+          <tr v-for="item in store.clothes" :key="item.id">
+              <td>{{ item.name }}</td>
+              <td>{{ item.price }}</td>
+          </tr>
         </body>
       </table>
     </div>
   </template>
   
+<script setup lang="ts">
+import { ref } from 'vue'
+import { useClothingStore } from '@/stores/clothing'
+
+const store: any = useClothingStore()
+
+</script>
+
   <style>
   @media (min-width: 1024px) {
     .about {
