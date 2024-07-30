@@ -1,21 +1,21 @@
 <template>
-    <div class="about">
+    <div>
       <h1>Items for sale</h1>
-      <table>
-        <!-- TODO: integrate with Pinya -->
-        <thead>
-            <tr>
-                <th>Item</th>
-                <th>Price</th>
+        <table class="items">
+          <!-- TODO: integrate with Pinya -->
+          <thead>
+              <tr>
+                  <th>Item</th>
+                  <th>Price</th>
+              </tr>
+          </thead>
+          <body>
+            <tr v-for="item in store.clothes" :key="item.id">
+                <td>{{ item.name }}</td>
+                <td>{{ item.price }}</td>
             </tr>
-        </thead>
-        <body>
-          <tr v-for="item in store.clothes" :key="item.id">
-              <td>{{ item.name }}</td>
-              <td>{{ item.price }}</td>
-          </tr>
-        </body>
-      </table>
+          </body>
+        </table>
     </div>
   </template>
   
@@ -29,9 +29,9 @@ const store: any = useClothingStore()
 
   <style>
   @media (min-width: 1024px) {
-    .about {
+    .items {
       min-height: 100vh;
-      display: flex;
+      display: flex-row;
       align-items: center;
     }
   }
