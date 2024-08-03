@@ -1,6 +1,6 @@
 # Algorithms   
 
-> Remember: Big O Notation is a measure of the worst-case runtime for an algorithm. For searching and sorting algorithms, this is particularly dependant on how many elements there are in the data set and the algorithm used.
+> Remember: [Big O Notation](https://en.wikipedia.org/wiki/Big_O_notation) is a measure of the worst-case runtime for an algorithm. For searching and sorting algorithms, this is particularly dependant on how many elements there are in the data set and the algorithm used.
 
 ## Search Algorithms
 
@@ -115,3 +115,7 @@ _Merge sorts by splitting the array into two equal-sized subarrays, sorting each
 ### [Top 25 Algorithms Every Programmer Should Know (medium)](https://medium.com/techie-delight/top-25-algorithms-every-programmer-should-know-373246b4881b)
 
 - Mostly a link dump to Techie Delight and possibly other places
+
+### Sliding Window Algorithm
+
+- Used with rate-limiting. example code [on logrocket](https://blog.logrocket.com/rate-limiting-node-js/)
