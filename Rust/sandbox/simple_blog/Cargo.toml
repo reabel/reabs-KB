@@ -1,0 +1,13 @@
+[package]
+name = "simple_blog"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.0"
+actix-rt = "2.5"
+sqlx = { version = "0.6.2", features = ["runtime-tokio-native-tls", "sqlite"]}
+tokio = { version = "1.20.0", features = ["macros"]}
+sqlx-core = "0.7"
+sqlx-migrate = "0.7"
+dotenv = "0.15"
