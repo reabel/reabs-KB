@@ -1,6 +1,7 @@
 # Podcasts
 
 - [Practical AI](https://changelog.com/practicalai)
+    - Possibly getting discontinued soon.
 
 # Notes from Practical AI
 
