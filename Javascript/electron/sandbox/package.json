@@ -10,6 +10,6 @@
   "author": "ryan reabel",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^27.1.0"
+    "electron": "^28.3.2"
   }
 }
