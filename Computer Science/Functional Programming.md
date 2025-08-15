@@ -8,4 +8,4 @@
 
 ## Functional vs. OoP
 
-[ Question on SO ](https://stackoverflow.com/questions/2078978/functional-programming-vs-object-oriented-programming)
+[Question on SO](https://stackoverflow.com/questions/2078978/functional-programming-vs-object-oriented-programming)
