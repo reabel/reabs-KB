@@ -43,39 +43,53 @@ _Merge sorts by splitting the array into two equal-sized subarrays, sorting each
 
 ## TBD / General / Other
 
-### Kruskal's 
+### Kruskal's Algorithm
+- A greedy algorithm used to find the Minimum Spanning Tree (MST) of a graph. It sorts all edges by weight and adds them to the MST, ensuring no cycles are formed.
 
-### Dijkstra's 
+### Dijkstra's Algorithm
+- A shortest path algorithm for graphs with non-negative weights. It uses a priority queue to explore the shortest path from the source node to all other nodes.
 
-### Bellman Ford
+### Bellman-Ford Algorithm
+- A dynamic programming algorithm to find the shortest path in a graph, even with negative weights. It iteratively relaxes edges to find the shortest path.
 
-### Kadane's
+### Kadane's Algorithm
+- Used to find the maximum sum of a contiguous subarray in an array. It uses dynamic programming to keep track of the maximum sum at each step.
 
-### Lee
+### Lee Algorithm
+- A breadth-first search (BFS) based algorithm used to find the shortest path in a grid or matrix.
 
-### Flood Fill
+### Flood Fill Algorithm
+- A recursive algorithm used to determine the area connected to a given node in a multi-dimensional array, often used in image processing.
 
-### Floyd's Cycle Detection
+### Floyd's Cycle Detection Algorithm
+- Also known as the "Tortoise and Hare" algorithm, it detects cycles in a sequence or linked list using two pointers moving at different speeds.
 
-### Union find
+### Union-Find
+- A data structure used to manage disjoint sets and efficiently perform union and find operations. Commonly used in Kruskal's algorithm.
 
 ### Topological Sort
+- A linear ordering of vertices in a directed acyclic graph (DAG) such that for every directed edge (u, v), vertex u comes before v.
 
-### KMP
+### KMP Algorithm
+- Knuth-Morris-Pratt algorithm for string matching. It preprocesses the pattern to allow efficient searching within a text.
 
 ### Counting Sort
+- A non-comparison-based sorting algorithm that counts the occurrences of each element to determine their positions in the sorted array.
 
 ### Kahn's Topological Sort
+- An algorithm for topological sorting of a DAG using in-degree counts and a queue.
 
 ### Huffman Coding Compression
+- A greedy algorithm used for lossless data compression. It assigns variable-length codes to input characters based on their frequencies.
 
 ### Quickselect
+- A selection algorithm to find the k-th smallest element in an unordered list. It is related to Quicksort.
 
-### Boyer-Moore Majority Vote
+### Boyer-Moore Majority Vote Algorithm
+- An efficient algorithm to find the majority element in an array, assuming it exists. It uses a counter to track potential candidates.
 
-### Euclid's [Via techiedelight](https://www.techiedelight.com/euclids-algorithm-to-find-gcd-of-two-numbers/)
-
-- A method for efficiently finding the Greatest Common Divisor (GCD) of two numbers, which is to say the largest number that divides both without leaving a remainder
+### Euclid's Algorithm
+- A method for efficiently finding the Greatest Common Divisor (GCD) of two numbers. It repeatedly replaces the larger number with the remainder of the division until the remainder is zero.
 
 ### Iterative Efficient example
 
@@ -105,6 +119,9 @@ _Merge sorts by splitting the array into two equal-sized subarrays, sorting each
         print(`euclid(${a}, ${b}) = ${result})
     }
 ```
+
+### Sliding Window Algorithm
+- A technique used to solve problems involving subarrays or substrings. It involves maintaining a window of elements and sliding it across the data to optimize performance.
 
 > B tree? https://en.wikipedia.org/wiki/B-tree
 > it's a "self-balancing" tree data structure
