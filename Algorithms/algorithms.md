@@ -4,14 +4,14 @@
 
 ## Search Algorithms
 
-### Binary Search
+### [Binary Search](./binarySearch.js)
 
 - Repeatedly dividing the search interval in half within a *sorted* array
 - The idea being to use the information that the array is *sorted* and reduce the time complexity to O(log N)
 
 [Geeks for geeks article](https://www.geeksforgeeks.org/binary-search/)
 
-### Linear Search
+### [Linear Search](./linearSearch.js)
 
 The _linear_ search algorithm searches each element in an array sequentially.
 
@@ -21,41 +21,41 @@ The _linear_ search algorithm searches each element in an array sequentially.
 
 ## Sorting Algorithms
 
-### Selection Sort
+### [Selection Sort](./selectionSort.js)
 
 A simple, but inefficient sorting algorithm. The first iteration selects the smallest element in the array and swaps it with the first element. The second selects the second smallest, and so on.
 
-### Insertion Sort
+### [Insertion Sort](./insertionSort.js)
 
 simple and inefficient algorithm. The first iteration takes the second element in the array and swaps if it's less than the first. The second iteration looks at the third element and inserts it in the correct position relative to the first two elements.
 
 At the nth iteration of the algorithm, the first n elements in the original array will be sorted.
 
-### Merge Sort
+### [Merge Sort](./mergeSort.js)
 
 Effiient but more complex conceptually than selection or insertion sort.
 
 _Merge sorts by splitting the array into two equal-sized subarrays, sorting each subarray and merging them into one large array.
 
-### Quicksort 
+### [Quicksort](./quicksort.js)
 
-### Heap Sort
+### [Heap Sort](./heapSort.js)
 
 ## TBD / General / Other
 
-### Kruskal's Algorithm
+### [Kruskal's Algorithm](./Kruskal.js)
 - A greedy algorithm used to find the Minimum Spanning Tree (MST) of a graph. It sorts all edges by weight and adds them to the MST, ensuring no cycles are formed.
 
-### Dijkstra's Algorithm
+### [Dijkstra's Algorithm](./Dijkstra.js)
 - A shortest path algorithm for graphs with non-negative weights. It uses a priority queue to explore the shortest path from the source node to all other nodes.
 
-### Bellman-Ford Algorithm
+### [Bellman-Ford Algorithm](./BellmanFord.js)
 - A dynamic programming algorithm to find the shortest path in a graph, even with negative weights. It iteratively relaxes edges to find the shortest path.
 
-### Kadane's Algorithm
+### [Kadane's Algorithm](./Kadane.js)
 - Used to find the maximum sum of a contiguous subarray in an array. It uses dynamic programming to keep track of the maximum sum at each step.
 
-### Lee Algorithm
+### [Lee Algorithm](./Lee.js)
 - A breadth-first search (BFS) based algorithm used to find the shortest path in a grid or matrix.
 
 ### Flood Fill Algorithm
@@ -125,7 +125,6 @@ _Merge sorts by splitting the array into two equal-sized subarrays, sorting each
 
 > B tree? https://en.wikipedia.org/wiki/B-tree
 > it's a "self-balancing" tree data structure
-
 
 ## Sources
 
