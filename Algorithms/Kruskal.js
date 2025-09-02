@@ -19,9 +19,8 @@ class Graph {
     this.edges.push(new Edge(src, dest, weight));
   }
 
-  find(parent, i) {
-    if (parent[i] === i) return i;
-    return this.find(parent, parent[i]);
+    parent[i] = this.find(parent, parent[i]);
+    return parent[i];
   }
 
   union(parent, rank, x, y) {
