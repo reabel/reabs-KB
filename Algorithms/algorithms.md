@@ -33,7 +33,7 @@ At the nth iteration of the algorithm, the first n elements in the original arra
 
 ### [Merge Sort](./mergeSort.js)
 
-Effiient but more complex conceptually than selection or insertion sort.
+Efficient but more complex conceptually than selection or insertion sort.
 
 _Merge sorts by splitting the array into two equal-sized subarrays, sorting each subarray and merging them into one large array.
 
