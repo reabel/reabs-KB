@@ -30,6 +30,6 @@
     "eslint-plugin-react-refresh": "^0.4.3",
     "react-router-dom": "^6.17.0",
     "typescript": "^5.0.2",
-    "vite": "^7.1.5"
+    "vite": "^7.1.11"
   }
 }
