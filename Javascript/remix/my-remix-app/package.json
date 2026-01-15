@@ -13,7 +13,7 @@
   "dependencies": {
     "@remix-run/css-bundle": "^2.8.0",
     "@remix-run/node": "^2.17.4",
-    "@remix-run/react": "^2.17.3",
+    "@remix-run/react": "^2.17.4",
     "@remix-run/serve": "^2.17.4",
     "isbot": "^4.1.0",
     "react": "^18.2.0",
