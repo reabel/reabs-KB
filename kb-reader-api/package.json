@@ -10,7 +10,7 @@
   "author": "Ryan Reabel",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.22.1"
   },
   "devDependencies": {
     "@types/node": "^20.12.7",
