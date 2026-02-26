@@ -18,6 +18,14 @@ https://openai.com/chatgpt
 
 https://www.youtube.com/watch?v=kJC5wKGbOWw
 
+
+### Claude
+
+- https://claude.ai/login
+- [docs](https://platform.claude.com/docs/en/home)
+
+
+
 ## Others
 
 ### Midjourney
