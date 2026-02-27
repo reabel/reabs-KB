@@ -6,6 +6,8 @@
 
 `Type coercion is the automatic or implicit conversion of values from one data type to another (such as strings to numbers). Type conversion (aka typecasting) is similar to type coercion because they both convert values from one data type to another with one key difference — type coercion is implicit whereas type conversion can be either implicit or explicit.`
 
+- https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/
+
 ## Implicit vs explicit in Javascript
 
 - Explicit is more clearly defined, whereas implicit would be more vague

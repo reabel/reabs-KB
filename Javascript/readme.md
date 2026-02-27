@@ -28,3 +28,7 @@ https://www.youtube.com/watch?v=8aGhZQkoFbQ
 ### Call Stack
 
 https://stackoverflow.com/questions/39459236/understanding-event-queue-and-call-stack-in-javascript
+
+## Data Structures
+
+- [MDN Page](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Data_structures)
