@@ -135,3 +135,26 @@ _Merge sorts by splitting the array into two equal-sized subarrays, sorting each
 ### Sliding Window Algorithm
 
 - Used with rate-limiting. example code [on logrocket](https://blog.logrocket.com/rate-limiting-node-js/)
+
+
+## A further note on Big O Notation
+
+### Time Complexity list (Best to Worst)
+
+- O(1): Constant Time. stays the same regardless of input size
+- O(Log N): Logarithmic Time. The runetime increases logarithmically with input size
+- O(N): Linear Time. Increases Linearly with input size
+- O(N Log N): Linear Logarithmic Time. increases with input siza _and_ log of the input size
+- O(N^2): Quadratic Time. Square of the input size
+- O(N^3): Cubic Time. Cube of the input size
+- O(2^N): Expoential Time. The runtime increases exponentially with input size
+
+### Examples
+
+- Accessing an element in an array: o(1)
+- Linear Search: O(n)
+- Binary Search: O(Log N)
+- Bubble sort: O(N^2)
+- Insertion Sort: O(N^2)
+- Merge Sort: O(N Log N)
+- Quick Sort: O(N Log N) -> O(N^2) depending on case
