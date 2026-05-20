@@ -1,0 +1,19 @@
+{
+  "name": "reabs-kb",
+  "version": "1.0.0",
+  "description": "KB Reader monorepo — API and frontend app",
+  "private": true,
+  "workspaces": [
+    "kb-reader-api",
+    "kb-reader-app"
+  ],
+  "scripts": {
+    "api": "npm run start --workspace=kb-reader-api",
+    "app": "npm run dev --workspace=kb-reader-app",
+    "build": "npm run build --workspace=kb-reader-app",
+    "lint": "npm run lint --workspace=kb-reader-app",
+    "test": "npm test --workspaces --if-present"
+  },
+  "author": "Ryan Reabel",
+  "license": "ISC"
+}

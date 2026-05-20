@@ -5,6 +5,7 @@
   "description": "an api that returns markdown files as well as the routing location for said files",
   "main": "server.ts",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ryan Reabel",
