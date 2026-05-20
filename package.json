@@ -5,7 +5,21 @@
   "private": true,
   "workspaces": [
     "kb-reader-api",
-    "kb-reader-app"
+    "kb-reader-app",
+    "examples/electron-sandbox",
+    "examples/nextjs-dashboard",
+    "examples/pinia-test",
+    "examples/react-recipe",
+    "examples/remix-app",
+    "examples/remix-tutorial",
+    "examples/song-picker",
+    "examples/svelte-kit-sample",
+    "examples/swagger-sandbox",
+    "examples/term-music",
+    "examples/three-sandbox",
+    "examples/todo",
+    "examples/vue-quick-start",
+    "examples/vue-store-prototype"
   ],
   "scripts": {
     "api": "npm run start --workspace=kb-reader-api",
