@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz 2026</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="site-header">
+        <p class="eyebrow">Knowledge Base Practice</p>
+        <h1>Quiz <span>2026</span></h1>
+        <p class="intro">Choose a focus area, then put your recall under a little pressure.</p>
+      </header>
+
+      <section id="setup-view" aria-labelledby="choose-topic">
+        <div class="section-heading">
+          <p class="step-label">01 / Choose a track</p>
+          <h2 id="choose-topic">What are you practicing?</h2>
+        </div>
+        <div id="category-grid" class="category-grid" aria-label="Quiz categories"></div>
+
+        <fieldset class="quiz-options">
+          <legend>Quiz length</legend>
+          <label><input type="radio" name="question-count" value="3" checked /> 3 questions</label>
+          <label><input type="radio" name="question-count" value="5" /> 5 questions</label>
+        </fieldset>
+        <button id="start-button" class="primary-button" type="button" disabled>Start quiz</button>
+      </section>
+
+      <section id="quiz-view" class="is-hidden" aria-live="polite">
+        <div class="quiz-topline">
+          <p id="quiz-category" class="eyebrow"></p>
+          <p id="progress-text"></p>
+        </div>
+        <div class="progress-track" aria-hidden="true"><div id="progress-bar"></div></div>
+        <article class="question-panel">
+          <p id="question-number" class="step-label"></p>
+          <h2 id="question-text"></h2>
+          <div id="answers" class="answers"></div>
+          <p id="answer-feedback" class="feedback" aria-live="polite"></p>
+          <button id="next-button" class="primary-button is-hidden" type="button">Next question</button>
+        </article>
+      </section>
+
+      <section id="results-view" class="is-hidden" aria-labelledby="results-title">
+        <p class="eyebrow">Session complete</p>
+        <h2 id="results-title">Your result</h2>
+        <p id="score-summary" class="score-summary"></p>
+        <div id="review-list" class="review-list"></div>
+        <button id="restart-button" class="primary-button" type="button">Choose another quiz</button>
+      </section>
+    </main>
+    <script src="questions/javascript.js"></script>
+    <script src="questions/python.js"></script>
+    <script src="questions/java.js"></script>
+    <script src="questions/databases.js"></script>
+    <script src="questions/interview.js"></script>
+    <script src="questions/system-design.js"></script>
+    <script src="quiz.js"></script>
+  </body>
+</html>
