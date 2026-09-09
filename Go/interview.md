@@ -215,7 +215,7 @@ go mod tidy
 - Profile your application using `pprof`.
 - Optimize algorithms and data structures.
 - Reduce memory allocations.
-- Use Goroutines and channels efficiently.
+- Use **Goroutines** and channels efficiently.
 
 ### What are the best practices for error handling in Go?
 

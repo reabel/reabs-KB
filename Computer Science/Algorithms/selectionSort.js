@@ -10,6 +10,7 @@ function selectionSort(arr) {
         }
 
         if (minIndex !== i) {
+            // Array Destructuring assignment to swap elements
             [arr[i], arr[minIndex]] = [arr[minIndex], arr[i]];
         }
     }
